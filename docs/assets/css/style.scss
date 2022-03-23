@@ -280,10 +280,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 10px 0;
 }
 
-.systemtable {
- .arcade {
-   th:nth-child(5), th:nth-child(6) {
-     max-width: 50px;
-   }
+.systemtable.arcade {
+  th:nth-child(5), th:nth-child(6) {
+    max-width: 50px;
   }
 }
